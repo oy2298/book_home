@@ -1,0 +1,100 @@
+body{
+	min-width: 345px;
+}
+.top{
+    position:fixed;
+    top:0px;
+    left: 0px;
+}
+
+.foot{
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+}
+.content{
+
+}
+/*login界面的样式结构*/
+
+.center{
+	text-align: center;
+}
+.lg_main{
+	margin:0px auto;
+	text-align: center;
+	
+}
+.lg_main input{
+	width: 130px;
+	height: 25px;
+	border: none;
+	border-bottom: #B7B5B5 solid 1px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	/*padding-left: 32px;*/
+}
+.p_l{
+	padding-left: 32px;
+}
+.lg_main input:focus {/*设置选中时，无选中后的属性*/
+    outline:none;
+    inline:none;
+}
+
+.but{
+	
+}
+.but input{
+	width: 210px;
+	height: 40px;
+	border: none;
+	/*margin-top: 5px;*/
+	background: #3fd5b8;
+	border-radius: 6px;/*圆角属性*/
+	color: #FFFFFF;
+	text-align: center;
+}
+.c{
+	color: #000000;
+}
+.btu_bon{
+	font-size: 12px;
+	margin-top: -15px;
+}
+.a{
+	padding-left: 85px;
+}
+.footer{
+	width: 210px;
+	text-align: center;
+	margin: 0px auto;
+	min-width: 210px;
+}
+.f_l input{
+	border: none;
+	width:30px;
+	height: 30px;
+	float: left;
+	margin: 0px 20px;
+	margin-top: 20px;
+	
+}
+	/*鼠标单击时不会出现任何样式*/
+.f_l input:focus{
+	-webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
